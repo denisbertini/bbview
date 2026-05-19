@@ -52,6 +52,11 @@ int mca_io_bbview_verbose_info_parsing = 0;
 int mca_io_bbview_use_accelerator_buffers = 0;
 int mca_io_bbview_grouping_option = 5;
 
+
+const mca_base_component_t *mca_io_bbview_component_ptr = 
+    (const mca_base_component_t *)&mca_io_bbview_component;
+
+
 /*
  * Private functions
  */
